@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    font-size: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 280px;
+    background-color: #9cc4d9;
+}
+.player{
+    text-align: center;
+}
+#play {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid white;
+    background-color: #9cd9b1;
+    color: white;
+    transition-duration: 0.4s;
+}
+#play:hover {
+    background-color: #56b678;
+}
+
+#next {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid white;
+    background-color: #a2a4dd;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#next:hover {
+    background-color: #7275d1;
+}
+#songInfo {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8565c4;
+    color: white;
+}
+
+
